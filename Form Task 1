@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task 1</title>
+    <style>
+
+       th{
+		   font-size:30px;
+		   background-color:#FFA;
+		   color:red;
+	   }
+
+       td{
+		   padding: 2px 15px;
+		   background-color:#0CF;
+	   }
+
+	   *{
+		   font-size:16px;
+	   }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="3px" cellspacing="5px" align="center">
+
+            <tr>
+                <th colspan="2">REGISTRATION FORM</th>
+            </tr>
+
+            <tr>
+                <td>Enter Name</td>
+                <td><input type="name"></td>
+            </tr>
+            <tr>
+
+                <td>Enter Password</td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td>Enter Address</td>
+                <td><textarea rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Select Game</td>
+                <td>
+                <input type="checkbox">Hockey<br>
+                <input type="checkbox">Football<br>
+                <input type="checkbox">Cricket<br>
+                <input type="checkbox">Badminton<br>
+                <input type="checkbox">Volleyball
+            </td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="hello">Male
+                <input type="radio" name="hello">Female</td>
+            </tr>
+
+            <tr>
+                <td>Select Your Age</td>
+                <td>
+                    <select class="">
+                        <option value="Select">Select</option>
+                        <option value="Select">15</option>
+                        <option value="Select">16</option>
+                        <option value="Select">17</option>
+                        <option value="Select">18</option>
+                        <option value="Select">19</option>
+                        <option value="Select">20</option>
+                        <option value="Select">21</option>
+                        <option value="Select">21+</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Select Photo</td>
+                <td><input type="file" value="Choose File"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="button" value="Click Me">
+                    <input type="submit">
+                    <input type="reset">
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
