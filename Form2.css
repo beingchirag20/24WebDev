@@ -1,0 +1,21 @@
+th{
+    color: yellow;
+    background-color: orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+tr{
+    color: yellow;
+}
+
+.submit{
+    background-color: rgb(26, 223, 79);
+    padding: 10px 20px;
+    color: white;
+}
+
+.reset{
+    background-color: rgb(231, 65, 9);
+    padding: 10px 20px;
+    color: white;
+}
