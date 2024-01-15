@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Task 3</title>
+    <style>
+th{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: bolder;
+}
+
+.class{
+    border-collapse: collapse;
+    width: 500px;
+}
+    </style>
+</head>
+<body>
+    <table border="2px" align="center" cellspacing = "0" class="class">
+        <tr>
+            <th colspan="6"><b>Student Marksheet</th></b>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Maths</td>
+            <td>Science</td>
+            <td>English</td>
+            <td>Physics</td>
+            <td>General Knowledge</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>58</td>
+            <td>84</td>
+            <td>69</td>
+            <td>82</td>
+            <td>91</td>
+        </tr>
+
+        <tr>
+            <td>Rohit</td>
+            <td>89</td>
+            <td>87</td>
+            <td>77</td>
+            <td>94</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>Richard</td>
+            <td>47</td>
+            <td>38</td>
+            <td>49</td>
+            <td>41</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>Tony</td>
+            <td>76</td>
+            <td>72</td>
+            <td>79</td>
+            <td>81</td>
+            <td>70</td>
+        </tr>
+    </table>
+</body>
+</html>
