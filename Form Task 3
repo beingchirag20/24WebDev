@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task3</title>
+    <style>
+   legend{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-weight: bold;
+   }
+
+   div{
+    padding: 10px;
+    width: 500px;
+   }
+      </style>
+</head>
+<body>
+    <form>
+        <h2>Reservation Request</h2>
+        <fieldset>
+            <legend>General Information</legend>
+            <div>
+                Arrival date: <input type="name">
+            </div>
+
+            <div>
+                Nights: <input type="name">
+            </div>
+
+            <div>
+                Adults:
+                <select>
+                   <option>1</option>
+                </select>
+            </div>
+
+            <div>
+                Children:
+                <select>
+                   <option>1</option>
+                </select>
+            </div>
+        </fieldset>
+<div>
+</div>
+        <fieldset>
+            <legend>
+                Preferances
+            </legend>
+
+            <div>
+                Room type:<input type="radio" name="s1">Standard
+                <input type="radio" name="s1">Business
+                <input type="radio" name="s1">Suite
+            </div>
+
+            <div>
+                Bed Type:<input type="radio" name="s2">King
+                <input type="radio" name="s2">Double
+                <input type="radio" name="s2">Smoking
+            </div>
+        </fieldset>
+<div></div>
+        <fieldset>
+            <legend>
+                Contact Information
+            </legend>
+
+            <div>
+                Name:<input type="name" placeholder="Enter Your Name">
+            </div>
+
+            <div>
+                Email:<input type="email" placeholder="Enter Your Email">
+            </div>
+
+            <div>
+                Phone:<input type="number" placeholder="Enter your mobile number">
+            </div>
+        </fieldset>
+        <div>
+        </div>
+        <input type="submit" value="Submit Reservation">      
+        <input type="reset" value="Clear">
+        
+    </form>
+</body>
+</html
